@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+        <section>
+            <h1>List of Dishes</h1>
+            <div class="authors-wrap">
+                <ul class="filters">
+                    <li>
+                        <span>Select Country: </span>
+                        <select id="select">
+                            <option id="Peru" value="Peru">Perú</option>
+                            <option id="all" value="all">all</option>
+                        </select>
+                    </li>
+                    <li>
+                        <span>What is Your Favorite meat?</span>
+                        <fieldset>
+                            <div>
+                                <input type="checkbox" name="acs" value="Pollo" id="Pollo"><label for="ger">Pollo</label></input>  
+                            </div>   
+                            <div>
+                                <input type="checkbox" name="acs" value="Carne de res" id="Carne de res"><label for="tur">Carne de res</label></input>
+                            </div>      
+                        </fieldset>  
+                    </li>
+                    <li>
+                        <button type="submit" onclick="filter()"> Apply Filters </button>
+                    </li>
+                </ul>
+                <ul id="authors" class="authors-list"></ul>
+            </div>
+        </section>
+        <script src="script.js"></script>
+    </body>
+</html>

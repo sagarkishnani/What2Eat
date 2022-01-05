@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "name" : "Ají de gallina",
+        "country": "Peru",
+        "meat": "Pollo"
+    },
+    {
+        "id":2,
+        "name" : "Lomo Saltado",
+        "country": "Peru",
+        "meat": "Carne de res"
+    },
+    {
+        "id":3,
+        "name" : "Arroz con Pollo",
+        "country": "Peru",
+        "meat": "Pollo"
+    },
+    {
+        "id":4,
+        "name" : "Tallarines Verdes",
+        "country": "Peru",
+        "meat": "Carne de res"
+    }
+]
